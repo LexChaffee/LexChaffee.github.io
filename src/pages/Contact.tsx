@@ -1,7 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Mail, Linkedin, Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   return (
@@ -15,7 +14,7 @@ const Contact = () => {
             <p className="text-lg text-muted-foreground mb-12">
               Interested in collaborating on data science projects or discussing analytics opportunities? I'd love to hear from you.
             </p>
-            
+
             <div className="space-y-6">
               <a
                 href="mailto:lexchaffee405@gmail.com"
@@ -27,7 +26,7 @@ const Contact = () => {
                   <p className="text-muted-foreground">lexchaffee405@gmail.com</p>
                 </div>
               </a>
-              
+
               <a
                 href="https://www.linkedin.com/in/alexanderchaffee/"
                 target="_blank"
@@ -40,7 +39,7 @@ const Contact = () => {
                   <p className="text-muted-foreground">Connect professionally</p>
                 </div>
               </a>
-              
+
               <a
                 href="https://github.com/lexchaffee"
                 target="_blank"
@@ -51,15 +50,16 @@ const Contact = () => {
                 <div className="text-left">
                   <h3 className="font-semibold text-lg">GitHub</h3>
                   <p className="text-muted-foreground">View my code</p>
-  </div>
-</a>
-</div> 
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
 
-</section>
-</main>
-
-<Footer />
-</div>
-);
+      <Footer />
+    </div>
+  );
+};
 
 export default Contact;
