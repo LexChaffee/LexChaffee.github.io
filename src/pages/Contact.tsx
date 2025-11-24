@@ -51,15 +51,15 @@ const Contact = () => {
                 <div className="text-left">
                   <h3 className="font-semibold text-lg">GitHub</h3>
                   <p className="text-muted-foreground">View my code</p>
-                </div>
-              </a>
-            </div>
-        </section>
-      </main>
-      
-      <Footer />
-    </div>
-  );
-};
+  </div>
+</a>
+</div> 
+
+</section>
+</main>
+
+<Footer />
+</div>
+);
 
 export default Contact;
