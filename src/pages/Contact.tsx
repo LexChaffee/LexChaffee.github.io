@@ -18,18 +18,18 @@ const Contact = () => {
             
             <div className="space-y-6">
               <a
-                href="mailto:contact@lexchaffee.com"
+                href="mailto:lexchaffee405@gmail.com"
                 className="flex items-center justify-center gap-4 p-6 rounded-xl border border-border bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
               >
                 <Mail className="w-6 h-6 text-primary" />
                 <div className="text-left">
                   <h3 className="font-semibold text-lg">Email</h3>
-                  <p className="text-muted-foreground">contact@lexchaffee.com</p>
+                  <p className="text-muted-foreground">lexchaffee405@gmail.com</p>
                 </div>
               </a>
               
               <a
-                href="https://linkedin.com/in/lexchaffee"
+                href="https://www.linkedin.com/in/alexanderchaffee/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-4 p-6 rounded-xl border border-border bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
@@ -54,15 +54,6 @@ const Contact = () => {
                 </div>
               </a>
             </div>
-            
-            <div className="mt-12 p-8 bg-muted/30 rounded-xl">
-              <h2 className="text-2xl font-bold mb-4">Open to Opportunities</h2>
-              <p className="text-muted-foreground mb-6">
-                Currently exploring data science roles focused on fraud detection, predictive analytics, and machine learning applications.
-              </p>
-              <Button size="lg">Download Resume</Button>
-            </div>
-          </div>
         </section>
       </main>
       
