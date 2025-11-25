@@ -25,7 +25,8 @@ const About = () => {
               <div className="space-y-3">
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-semibold">Education</span>
-                  <span className="text-muted-foreground">M.S. Analytics, NC State</span>
+                  <span className="text-muted-foreground">M.S. Analytics, NC State<br />
+                                                          B.S. Applied Mathematics (Financial Math concentration), Minors in Statistics & Economics</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-semibold">Focus</span>
@@ -33,7 +34,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-semibold">Experience</span>
-                  <span className="text-muted-foreground">Data Science & ML</span>
+                  <span className="text-muted-foreground">Data Science & Analytics</span>
                 </div>
               </div>
             </div>
@@ -42,17 +43,17 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Background</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  I'm a data scientist and analytics student pursuing a Master's degree in Analytics from NC State University. My focus is on transforming complex datasets into clear, actionable insights that drive decision-making.
+                  I'm a data scientist and analytics student pursuing a Master's degree in Analytics from the Institute for Advanced Analytics at NC State University. My focus is on transforming complex datasets into clear, actionable insights that drive decision-making.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  With strong foundations in modeling, optimization, and data engineering, I specialize in fraud detection, clustering algorithms, and predictive modeling. I combine technical expertise with leadership experience gained through student organization presidency.
+                  With strong foundations in modeling, statistics, and mathematics, I combine technical expertise with leadership experience gained through student organization presidency.
                 </p>
               </div>
               
               <div>
                 <h2 className="text-2xl font-bold mb-4">Approach</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  I believe in user-centered analytics—creating visualizations and models that not only solve technical problems but communicate insights effectively to stakeholders. My goal is to bridge the gap between complex data and actionable business intelligence.
+                  I believe in user-centered analytics, creating visualizations and models that not only solve technical problems but communicate insights effectively to stakeholders. My goal is to bridge the gap between complex data and actionable business intelligence.
                 </p>
               </div>
             </div>

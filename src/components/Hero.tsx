@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="pt-32 pb-16 md:pt-40 md:pb-24 container-width">
       <div className="max-w-4xl">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          Data Scientist + Analytics Specialist Focused on User-Centered Insights
+          Data Scientist/Analyst Focused on User-Centered Insights
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
