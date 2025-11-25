@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-3">LEX CHAFFEE</h3>
             <p className="text-sm text-muted-foreground">
-              Data Scientist & Analytics Specialist
+              Data Scientist/Analyst
             </p>
           </div>
           
