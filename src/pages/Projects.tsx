@@ -5,34 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Elevate — Anomaly Detection & Fraud Modeling (Practicum)",
+      title: "Calorie Burn Prediction Model",
       description: [
-        "Cleaned and merged 7 datasets (200k+ rows, 1500+ variables)",
-        "Developed tree-based models: decision trees, random forests, XGBoost",
-        "Built clustering workflows to uncover fraud linkages",
-        "Created visualizations to communicate model and network insights to stakeholders",
+        "Developed predictive models using R to estimate calorie expenditure based on activity data",
+        "Analyzed exercise metrics including duration, intensity, heart rate, and activity type",
+        "Built and compared multiple regression models to identify key predictors of calorie burn",
+        "Created visualizations in R to communicate model performance and insights",
       ],
-      tags: ["Python", "XGBoost", "Clustering", "Data Visualization"],
-    },
-    {
-      title: "Customer Segmentation Analysis",
-      description: [
-        "Applied K-means and hierarchical clustering to segment 50k+ customer records",
-        "Identified 5 distinct customer personas for targeted marketing",
-        "Reduced customer acquisition cost by 23% through targeted campaigns",
-        "Created interactive dashboards for real-time segment monitoring",
-      ],
-      tags: ["Python", "Scikit-learn", "Tableau", "SQL"],
-    },
-    {
-      title: "Predictive Maintenance System",
-      description: [
-        "Built LSTM and Random Forest models for equipment failure prediction",
-        "Achieved 87% accuracy in predicting failures 48 hours in advance",
-        "Processed time-series sensor data from 200+ industrial devices",
-        "Reduced unplanned downtime by 34% in pilot implementation",
-      ],
-      tags: ["Python", "TensorFlow", "Time Series", "IoT"],
+      tags: ["R", "Regression", "Data Analysis", "Data Visualization"],
     },
   ];
 

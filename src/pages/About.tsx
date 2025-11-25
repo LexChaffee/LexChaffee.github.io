@@ -42,7 +42,7 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Background</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  I'm a data scientist and analytics specialist with a Master's degree in Analytics from NC State University. My work focuses on transforming complex datasets into clear, actionable insights that drive decision-making.
+                  I'm a data scientist and analytics student pursuing a Master's degree in Analytics from NC State University. My focus is on transforming complex datasets into clear, actionable insights that drive decision-making.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   With strong foundations in modeling, optimization, and data engineering, I specialize in fraud detection, clustering algorithms, and predictive modeling. I combine technical expertise with leadership experience gained through student organization presidency.

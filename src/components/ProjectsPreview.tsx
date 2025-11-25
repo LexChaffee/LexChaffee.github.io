@@ -2,14 +2,14 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectsPreview = () => {
   const featuredProject = {
-    title: "Elevate — Anomaly Detection & Fraud Modeling (Practicum)",
+    title: "Calorie Burn Prediction Model",
     description: [
-      "Cleaned and merged 7 datasets (200k+ rows, 1500+ variables)",
-      "Developed tree-based models: decision trees, random forests, XGBoost",
-      "Built clustering workflows to uncover fraud linkages",
-      "Created visualizations to communicate model and network insights to stakeholders",
+      "Developed predictive models using R to estimate calorie expenditure based on activity data",
+      "Analyzed exercise metrics including duration, intensity, heart rate, and activity type",
+      "Built and compared multiple regression models to identify key predictors of calorie burn",
+      "Created visualizations in R to communicate model performance and insights",
     ],
-    tags: ["Python", "XGBoost", "Clustering", "Data Visualization"],
+    tags: ["R", "Regression", "Data Analysis", "Data Visualization"],
   };
 
   return (
